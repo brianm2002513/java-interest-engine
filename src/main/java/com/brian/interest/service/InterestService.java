@@ -1,9 +1,12 @@
 package com.brian.interest.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * Service class responsible for interest calculations.
- * By separating this from the UI, we make the logic reusable and testable.
+ * Marked with @Service so Spring's Dependency Injection system manages it.
  */
+@Service
 public class InterestService {
 
     /**

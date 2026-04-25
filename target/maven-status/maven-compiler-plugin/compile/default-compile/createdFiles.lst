@@ -1,0 +1,6 @@
+com\brian\interest\dto\InterestResponse.class
+com\brian\interest\controller\InterestController.class
+com\brian\interest\dto\InterestRequest.class
+com\brian\interest\InterestApplication.class
+com\brian\interest\gui\MainFrame.class
+com\brian\interest\service\InterestService.class
