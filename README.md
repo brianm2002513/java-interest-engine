@@ -1,6 +1,16 @@
 # Java Interest Engine 🚀
 
+[![Java CI/CD Pipeline](https://github.com/brianm2002513/java-interest-engine/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/brianm2002513/java-interest-engine/actions/workflows/ci-cd.yml)
+
 A professional-grade financial calculation engine built as a **Spring Boot REST API**.
+
+## 🔄 CI/CD Pipeline
+This project utilizes a multi-stage Maven pipeline to ensure enterprise reliability:
+*   **Build**: Compiles the Spring Boot application and packages it into an executable JAR.
+*   **Security Scan**: Leverages **GitHub CodeQL** to analyze the Java source code for security vulnerabilities.
+*   **Unit Testing**: Executes a JUnit 5 test suite to verify the mathematical accuracy of the interest engine.
+*   **Automated Release**: Automatically generates a GitHub Release with the compiled JAR file on every push to `master`.
+
 
 ## 🧠 Why this project stands out
 This project demonstrates modern backend engineering skills, specifically mapped to enterprise Java environments:
